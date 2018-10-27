@@ -1,0 +1,151 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Avenir);
+
+.order-button {
+  margin-top: 2%;
+  background-color: #92C9BD; /* Green */
+  color: #130901;
+  font-size: 25px;
+  width: 150px;
+  height: 60px;
+  border-radius: 8px;
+  border: 2px solid #56B39F;
+  border-color:#56B39F;
+  font-family: Avenir;
+  outline: none;
+}
+
+.order-button:active {
+  transform: translateY(10px);
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px 15px 2%;
+}
+
+.koko-logo {
+  height: 50px;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  padding: 0 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #130901;
+  font-family: Montserrat;
+}
+
+.header-container {
+  background: url("../images/photo-principal.png") 0 0/cover;;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-title {
+  color: #130901;
+  font-family: Montserrat;
+  font-size: 60px;
+  padding: 10px;
+  margin-top: 15%;
+}
+
+.header-subtitle {
+  color: #8A7768;
+  font-family: Avenir;
+  font-size: 42px;
+}
+
+.about {
+  background: url("../images/KOKO.png") 0 0/cover;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  display: inline-block;
+  padding-bottom: 0.8%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  font-family: Montserrat;
+  color: #130901;
+  font-size: 50px;
+}
+
+.service {
+  background: #F9F8F8;
+  padding-bottom: 8%;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.service-title {
+  padding-bottom: 0.8%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  display: inline-block;
+}
+
+.service-main-title {
+  font-size: 50px;
+  color: #130901;
+}
+
+.service img{
+  width: 35%;
+  margin: auto;
+  padding-bottom: 10%;
+  display: block;
+}
+
+.service .row {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+.service .col3 {
+  width: 20%;
+}
+
+.order-container {
+  flex-direction: column;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/order.png") 0 0/cover;
+  font-family: Montserrat;
+  height: 600px;
+  font-size: 20px;
+}
+
+
+.footer {
+  color: #F9F8F8;
+  text-align: center;
+  padding: 20px 0;
+  background: #130901;
+}
+
